@@ -14,7 +14,7 @@ cd / && \
 rm -rf /samplicator && \
 apk del --purge build-base automake autoconf
 
-EXPOSE 2000
+EXPOSE 2000/udp
 
 # For easy deployment, specify the receivers argument as an environment variable.
 # For use with a config file, you'll have to customize the image or build off of this one.
