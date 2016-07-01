@@ -19,4 +19,4 @@ EXPOSE 2000/udp
 # For easy deployment, specify the receivers argument as an environment variable.
 # For use with a config file, you'll have to customize the image or build off of this one.
 
-CMD /usr/local/bin/samplicate $RECEIVERS
+CMD /usr/local/bin/samplicate -S $RECEIVERS
